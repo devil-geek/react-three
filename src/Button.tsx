@@ -1,6 +1,7 @@
 import { css } from "@emotion/react"
+import React from "react"
 
-export function Button({ children }) {
+export const Button: React.FC = ({ children }) => {
   return (
     <button
       css={css`
